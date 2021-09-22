@@ -43,10 +43,13 @@
   },
   "homepage": "https://github.com/ivmarcos/react-to-pdf#readme",
   "dependencies": {
+    "@types/jest": "^27.0.2",
     "html2canvas": "1.0.0-alpha.12",
-    "jspdf": "^2.3.1"
+    "jspdf": "^2.3.1",
+    "ts-jest": "^27.0.5"
   },
   "devDependencies": {
+    "@types/prop-types": "^15.7.4",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.2",
@@ -80,7 +83,7 @@
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.11.1",
     "file-loader": "^2.0.0",
-    "jest": "^23.5.0",
+    "jest": "^23.6.0",
     "json5": "^2.0.1",
     "lite-server": "^2.4.0",
     "node-sass": "^4.9.3",
